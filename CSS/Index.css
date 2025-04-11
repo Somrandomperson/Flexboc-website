@@ -1,0 +1,28 @@
+.News {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #1f2937;
+    align-items: center;
+}
+.News video {
+    display: inline-flex;
+    border-radius: 25px;
+}
+.News > p {
+    margin: 10px;
+    color: rgb(179, 207, 134);
+    text-align: center;
+}
+#News-h1 {
+    margin: 10px;
+    font-size: 48px;
+    color: #f9faf8;
+}
+.News a {
+    color: #e5e7eb;
+}
+.News button {
+    background-color: #3882f6;
+    border-radius: 25px;
+}
