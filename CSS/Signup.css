@@ -1,0 +1,81 @@
+#Sign-Up > * {
+    display: flex;
+    flex-direction: column;
+}
+#Sign-Up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex:1;
+    flex-wrap:wrap;
+    flex-direction: column;
+    font-size:xx-large;
+    font-weight:200;
+}
+#Sign-Up button {
+    font-size:xx-large;
+    border: 1px black solid;
+    margin: 10px;
+}
+#Sign-Up a {
+    color: #000000;
+}
+#Sign-Up label {
+    font-size: medium;
+    margin-top: 5px;
+}
+#TOS-Link a{
+    color: purple;
+}
+#TOS-Link span {
+    font-size: medium;
+}
+fieldset {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    flex:1;
+    width: fit-content;
+    height: fit-content;
+}
+.E-Mail {
+    width: 200px;
+    height: 20px;
+    align-self: center;
+}
+.Username {
+    width: 200px;
+    height: 20px;
+    align-self: center;
+}
+#Password {
+    width: 200px;
+    height: 20px;
+    align-self: center;
+}
+
+#Signup-Fieldset button {
+    text-align: center;
+}
+#Account-Login {
+    font-size: medium;
+    margin-top: 20px;
+}
+#Account-Login a{
+    color:purple;
+    margin:5px;
+}
+.footer {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    text-wrap: 1;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: large;
+    font-weight: bold;
+    min-height: 26vh;
+}
+
+

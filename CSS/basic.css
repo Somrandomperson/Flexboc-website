@@ -12,7 +12,9 @@
 }
 #header {
     font-size: 24px;
+    font-weight: 900;
     color: #87cfffd0;
+    font-family: Verdana;
 }
 nav {
     display: flex;
@@ -26,7 +28,6 @@ nav {
     flex: 2;
     height: 50px;
     background-color: #1f2937;
-    box-shadow: 2px 2px rgb(114, 114, 114);
 }
 nav li {
     display: flex;
@@ -36,6 +37,7 @@ nav li {
     flex-direction: row;
     display: inline-flex;
     font-size: 18px;
+    font-weight: bold;
 }
 nav a {
     color: #e5e7eb;

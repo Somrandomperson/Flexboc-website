@@ -1,18 +1,34 @@
+* section {
+    flex-wrap: wraps;
+    text-wrap: 1;
+}
 .News {
+    flex: 1;
+    text-wrap: 1;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     background-color: #1f2937;
     align-items: center;
+    border: 10px #ffffff;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
 }
 .News video {
     display: inline-flex;
     border-radius: 25px;
+    order: 1;
+    /* Border-radius adds rounded corner to border:> */
 }
-.News > p {
+.News p {
     margin: 10px;
     color: rgb(179, 207, 134);
     text-align: center;
+    font-size:x-large;
+    order: 0;
+}
+#Video-Credits {
+    order: 3;
 }
 #News-h1 {
     margin: 10px;
@@ -25,4 +41,118 @@
 .News button {
     background-color: #3882f6;
     border-radius: 25px;
+}
+
+/* --------------------------------------------------------------------------- */
+
+#About-Us {
+    text-wrap: 1;
+    flex: 1;
+    background-color: white;
+    display: inline-flex;
+    flex-direction: column;
+}
+#About-Us span {
+    background-color: yellow;
+}
+#About-Us h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #1f2937;
+    align-self: center;
+}
+#About-Us p {
+    text-align:center;
+    font-size:x-large;
+}
+.About-Images {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    text-wrap: 1;
+}
+.About-Images figure {
+    border: 0px;
+    border-radius: 10px;
+    background-color: #1f2937;
+    min-width: 25px;
+    text-wrap: 1;
+    flex-wrap: wrap;
+}
+.About-Images img {
+    border: 0px;
+    border-radius: 10px;
+}
+.About-Images figcaption {
+    font-size: larger;
+    text-decoration-line: underline;
+    color: #e5e7eb;
+    font-weight: bold;
+}
+
+/* --------------------------------------------------------------------------- */
+
+#Contact-Info {
+    text-wrap: 1;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+}
+#Contact-Info h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #1f2937;
+    align-self: center;
+}
+#Contact-Info p {
+    text-align:center;
+    font-size:x-large;
+}
+#Contact-Info ul {
+    text-align: center;
+    font-size: xx-large;
+    margin: 20px;
+    list-style: none;
+}
+#Contact-Info a {
+    color: #3882f6;
+}
+
+/* --------------------------------------------------------------------------- */
+
+#message1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: x-large;
+    background-color: #ffffff;
+}
+#message1 h1{
+    font-size: 48px;
+    font-weight: 900;
+    color: #1f2937;
+    align-self: center;
+    margin-bottom: 20px;
+}
+#message1 p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+#message1 span {
+    color: red;
+}
+
+/* --------------------------------------------------------------------------- */
+
+footer {
+    background-color: #1f2937;
+    color: white;
+    padding: 20px;
+    text-wrap: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: large;
+    font-weight: bold;
 }
